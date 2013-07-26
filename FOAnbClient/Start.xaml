@@ -1,0 +1,53 @@
+﻿<Window x:Class="FOAnbClient.Start"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:FOAnbClient"
+    Title="Sign In"
+    Height="230"
+    Width="400"
+    MinHeight="230"
+    MinWidth="400"
+    MaxHeight="230"
+    MaxWidth="400"
+    Icon="/condom.ico"
+    Style="{StaticResource VS2012WindowStyle}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="60"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="1" Grid.Column="1" Content="Key"></Label>
+        <TextBox Name="TbKey" Grid.Row="1" Grid.Column="1" Width="240" Height="25" HorizontalAlignment="Left" Margin="70,0,0,0" IsEnabled="False"></TextBox>
+        <Label Grid.Row="2" Grid.Column="1" Content="Config"></Label>
+        <TextBox Name="TbConfig" Grid.Row="2" Grid.Column="1" Width="240" Height="25" HorizontalAlignment="Left" Margin="70,0,0,0" IsEnabled="False"></TextBox>
+        <Label Grid.Row="3" Grid.Column="1" Content="History"></Label>
+        <TextBox Name="TbHistory" Grid.Row="3" Grid.Column="1" Width="240" Height="25" HorizontalAlignment="Left" Margin="70,0,0,0" IsEnabled="False"></TextBox>
+        <Label Grid.Row="4" Grid.Column="1" Content="Nick name"></Label>
+        <TextBox Name="TbNickname" Grid.Row="4" Grid.Column="1" Width="240" Height="25" HorizontalAlignment="Left" Margin="70,0,0,0"></TextBox>
+
+        <Button Name="BtnKey" Grid.Row="1" Grid.Column="2" Margin="3" Click="BtnKey_OnClick">Pick</Button>
+        <Button Name="BtnConfig" Grid.Row="2" Grid.Column="2" Margin="3">Pick</Button>
+        <Button Name="BtnHistory" Grid.Row="3" Grid.Column="2" Margin="3" Click="BtnHistory_OnClick">Pick</Button>
+
+        <Button Name="BtnRegister" Grid.Row="5" Grid.Column="1" Width="50" Height="24" HorizontalAlignment="Left" Click="BtnRegister_OnClick">Register</Button>
+        <Button Name="BtnConnect" Grid.Row="5" Grid.Column="1" Width="50" Height="24" HorizontalAlignment="Left" Margin="80,0,0,0" Click="BtnConnect_OnClick">Connect</Button>
+        <Button Name="BtnGenKey" Grid.Row="5" Grid.Column="1" Width="90" Height="24" HorizontalAlignment="Left" Margin="170,0,0,0" Click="BtnGenKey_OnClick">Generate Key</Button>
+        
+        <StatusBar Grid.Row="6" Grid.ColumnSpan="3" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="24">
+            <TextBlock Name="TblockStatus" Margin="3,0,0,0">Ready</TextBlock>
+            <!--<StatusBarItem HorizontalAlignment="Right">-->
+                <!--<ResizeGrip Opacity="0.75" />-->
+            <!--</StatusBarItem>-->
+        </StatusBar>
+    </Grid>
+</Window>

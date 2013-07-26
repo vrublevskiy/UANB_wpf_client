@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOAnbClient", "FOAnbClient\FOAnbClient.csproj", "{582E35E0-8FDD-47BD-9A83-19E891DACA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{624D0F1E-52C2-4304-B37C-F7E34870A179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnbCore", "AnbCore\AnbCore.csproj", "{864EFDD2-B3F8-43DE-982F-64CE8B538EA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{582E35E0-8FDD-47BD-9A83-19E891DACA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582E35E0-8FDD-47BD-9A83-19E891DACA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582E35E0-8FDD-47BD-9A83-19E891DACA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582E35E0-8FDD-47BD-9A83-19E891DACA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624D0F1E-52C2-4304-B37C-F7E34870A179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624D0F1E-52C2-4304-B37C-F7E34870A179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624D0F1E-52C2-4304-B37C-F7E34870A179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624D0F1E-52C2-4304-B37C-F7E34870A179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864EFDD2-B3F8-43DE-982F-64CE8B538EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864EFDD2-B3F8-43DE-982F-64CE8B538EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864EFDD2-B3F8-43DE-982F-64CE8B538EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864EFDD2-B3F8-43DE-982F-64CE8B538EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
